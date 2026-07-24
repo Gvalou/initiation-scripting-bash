@@ -1,0 +1,10 @@
+#!/bin/bash
+############################
+# auteur : valentin
+# date de création : 24/07/26
+# last modif : 24/07/26
+############################
+
+func_create_user() {
+    useradd $user_to_create
+}
