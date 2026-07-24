@@ -13,8 +13,9 @@ echo "fichiers pouvant être traités : "
 ls $rep/*.$extension
 
 #choix du fichier à traiter
+echo ""
 echo "Quel fichier voulez-vous traiter ?"
-read fic
+read fic trash
 nblign=$(wc -l $fic)
 debut=$(head -n 2 $fic)
 fin=$(tail -n 2 $fic)
